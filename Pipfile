@@ -13,6 +13,7 @@ vega = "==2.5.0"
 jupyter = "*"
 pyarrow = "*"
 scikit-learn = "*"
+cloudpickle = "*"
 
 [requires]
 python_version = "3.7"
