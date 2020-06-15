@@ -78,7 +78,7 @@ def confusion_matrix(actuals, predictions, labels=None, width=215, height=215):
     def labelizer(labels):
         def labelize(tup):
             i, v = tup
-            return {'predicted': labels[int(i / lc)], 'actual': labels[i % lc], 'raw_count': v[0], 'value': v[1]}
+            return { 'actual': labels[int(i / lc)],'predicted': labels[i % lc], 'raw_count': v[0], 'value': v[1]}
 
         return labelize
 
