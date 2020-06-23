@@ -43,6 +43,6 @@ Some of the notebooks contain tick symbols like this one ✅. We use this symbol
 
 ### Alternative approach
 
-You can run nearly all of the notebooks on [Binder](https://mybinder.org/v2/gh/sophwats/multiclass-text-workflow/master), without needing to download anything. However, notebook 03-parameter-tuning.ipynb may not have enough resources to run for certain models. 
+You can run nearly all of the notebooks on [Binder](https://mybinder.org/v2/gh/sophwats/multiclass-text-workflow/master), without needing to download anything. However, notebooks [02-xgboost-model.ipynb](02-xgboost-model.ipynb) and [03-parameter-tuning.ipynb](03-parameter-tuning.ipynb) will not have enough resources to run. 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sophwats/multiclass-text-workflow/master)
